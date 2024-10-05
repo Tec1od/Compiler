@@ -1,0 +1,101 @@
+
+/* we create the css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins","sans-serif";
+   
+}
+
+
+
+/* we create body to set the background */
+
+body{
+    background: #454545;
+    color: #fff;
+}
+
+/* we create conter to set the width and height or padding */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+
+}
+
+/* we add letft and right */
+#left, #right{
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+
+/* we add porpietice of textarea */
+textarea{
+    width: 100%;
+    height: 28%;
+    background:#1f1f1f;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+
+}
+
+
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: -10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+#css-editor {
+    width: 100%;
+    height: 150px;
+  }
+/*ifram Css code */
+
+iframe{
+    width: 100%;
+    height: 95%;
+    background: #fff;
+    border: 0;
+    outline: 0;
+}
+
+
+label i {
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+}
+
+
+label{
+    display: flex;
+    align-items: center;
+    background: #000;
+    height: 30px;
+}
+
+
+
+
+
+
